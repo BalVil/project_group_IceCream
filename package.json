@@ -3,10 +3,10 @@
   "version": "1.1.0",
   "description": "",
   "main": "index.js",
-  "homepage": "https://EduardSergienko.github.io/project_group_18",
+  "homepage": "https://BalVil.github.io/project_group_IceCream",
   "scripts": {
     "dev": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /project_group_18/"
+    "build": "parcel build src/*.html --public-url /project_group_IceCream/"
   },
   "repository": {
     "type": "git",
