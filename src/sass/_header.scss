@@ -235,8 +235,7 @@
     fill: var(--second-complementary-text-color);
   }
 
-  .button__header:hover &,
-  .button__header:focus & {
+  .button__header:active & {
     animation: bounceright 0.4s alternate cubic-bezier(0.4, 0, 0.2, 1);
   }
 }

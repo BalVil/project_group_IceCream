@@ -260,11 +260,6 @@
   @media screen and (min-width: 768px) {
     display: flex;
     justify-content: center;
-
-    // second option without flex
-    // text-align: center;
-    // margin-left: auto;
-    // margin-right: auto;
   }
 }
 
@@ -283,10 +278,6 @@
 
   display: block;
   padding: 12px 16px;
-
-  // second option with width and height
-  // width: 161px;
-  // height: 44px;
 
   font-weight: bold;
   font-size: 16px;
@@ -352,20 +343,6 @@
   &:focus {
     background-color: #ecebeb;
   }
-
-  // second option with after without svg
-  // &:after {
-  //   position: absolute;
-  //   top: 50%;
-  //   right: 31px;
-  //   content: "";
-  //   display: block;
-  //   width: 8px;
-  //   height: 8px;
-  //   border-right: 2px solid var(--activity-text-color);
-  //   border-top: 2px solid var(--activity-text-color);
-  //   transform: rotate(45deg) translateY(-50%);
-  // }
 }
 .button__icon {
   margin-left: 8px;
@@ -383,8 +360,7 @@
     fill: var(--activity-text-color);
   }
 
-  .contacts-button:hover &,
-  .contacts-button:focus & {
+  .contacts-button:active & {
     animation: bounceright 0.4s alternate cubic-bezier(0.4, 0, 0.2, 1);
   }
 }
@@ -395,6 +371,9 @@
   }
   40% {
     transform: translateX(5px);
+  }
+  60% {
+    transform: translateX(-5px);
   }
   100% {
     transform: translateX(0);

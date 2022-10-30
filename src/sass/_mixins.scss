@@ -9,5 +9,5 @@
 @mixin circle($diametr) {
   width: $diametr;
   height: $diametr;
-  border-radius: ($diametr / 2);
+  border-radius: calc(#{$diametr} / 2);
 }

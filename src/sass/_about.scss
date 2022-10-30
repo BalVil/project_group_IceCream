@@ -210,8 +210,8 @@
 .about__button-icon {
   fill: var(--activity-text-color);
   margin-left: 13px;
-  .about__button:hover &,
-  .about__button:focus & {
+
+  .about__button:active & {
     animation: bounceright 0.4s alternate cubic-bezier(0.4, 0, 0.2, 1);
   }
   // vertical-align: middle;
